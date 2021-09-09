@@ -1,0 +1,28 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "GraphQL Chat Server",
+  "main": "index.js",
+  "author": "Aseer KT",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-core": "^3.3.0",
+    "apollo-server-express": "^3.3.0",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "graphql": "^15.5.3",
+    "graphql-subscriptions": "^1.2.1",
+    "graphql-tools": "^8.2.0",
+    "graphql-ws": "^5.5.0",
+    "uuid": "^8.3.2",
+    "ws": "^8.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "node -r esm index.js",
+    "dev": "nodemon -r esm index.js"
+  }
+}
