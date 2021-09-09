@@ -1,3 +1,12 @@
 # URQL GraphQL Mini Chat Application
 
-> Pagination and Subscription Example with URQL
+> 🚀 Minimalist chat example with urql
+
+## Features
+
+- Paginated messages
+- Subscribe for new messages
+
+## Authors
+
+- Aseer KT
