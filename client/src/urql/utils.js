@@ -13,7 +13,7 @@ export const offsetPagination = () => {
     const fieldKey = `${fieldName}(${stringifyVariables(fieldArgs)})`;
     const isItInTheCache = cache.resolve(
       cache.resolveFieldByKey(entityKey, fieldKey),
-      'posts'
+      'nodes'
     );
     info.partial = !isItInTheCache;
     let hasMore = true;
